@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pastelería Dark Temptation</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    .card-title {
+      word-break: break-word;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    .card {
+      border-radius: 0.5rem;
+      border: 1px solid #dee2e6;
+      box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      box-shadow: 0 8px 25px rgb(0 0 0 / 0.2);
+      transform: translateY(-5px);
+    }
+    .card-img-top {
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+      object-fit: cover;
+      height: 180px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Dark Temptation</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navMenu"
+        aria-controls="navMenu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#catalogo">Catálogo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pedido">Pedido</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cotizacion">Cotización</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <section id="inicio">
+      <header class="bg-light py-5 text-center">
+        <div class="container">
+          <h1 class="display-4">Bienvenidos a Pastelería Dark Temptation</h1>
+          <p class="lead">Deliciosos pasteles y postres para cualquier ocasión</p>
+        </div>
+        <div class="w-100 my-4">
+          <img
+            src="https://tse3.mm.bing.net/th/id/OIP.tfF7tm6Po876nEiUsYA6sQHaEb?r=0&pid=Api&h=220&P=0"
+            alt="Decoración Pastelería"
+            class="img-fluid rounded"
+             <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h2 class="text-center mb-4 text-primary">Sobre Nosotros</h2>
+        <p class="fs-5 mb-4 text-muted">
+          En Pastelería Dark Temptation nos dedicamos a crear deliciosos pasteles y postres artesanales,
+          preparados con ingredientes de la más alta calidad y un toque de amor en cada receta.
+        </p>
+        <h2 class="text-center mb-4 text-primary">Nuestra Historia</h2>
+        <p class="fs-5 text-muted">
+          Fundada en 2010 por un apasionado equipo de reposteros, Dark Temptation nació con la idea de ofrecer
+          experiencias dulces únicas que conquisten paladares y corazones. Desde entonces, hemos crecido y
+          evolucionado, manteniendo siempre la tradición y la innovación como pilares fundamentales.
+        </p>
+          />
+        </div>
+      </header>
+    </section>
+
+    <section id="catalogo" style="display:none;">
+      <h2 class="mb-4">Catálogo de productos</h2>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+        <!-- Pastel de Chocolate -->
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://90minutos.co/wp-content/uploads/2026/02/Diseno-sin-titulo-12.jpg"
+              class="card-img-top"
+              alt="Pastel de Chocolate"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pastel de Chocolate</h5>
+              <p class="card-text">Delicioso pastel con cobertura de ganache.</p>
+              <p class="card-text fw-bold">Precio: $350</p>
+            </div>
+          </div>
+        </div>
+        <!-- Agrega aquí los otros productos como en tu código -->
+         <!-- Cupcakes surtidos -->
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src="https://www.candyscupcakes.co.uk/cdn/shop/files/pick-mix-cupcakes-2026-3_1200x1200.jpg?v=1778762017"
+        class="card-img-top"
+        alt="Cupcakes surtidos"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Cupcakes surtidos</h5>
+        <p class="card-text">Variedad de sabores y decoraciones para todos.</p>
+        <p class="card-text fw-bold">Precio: $120 el paquete</p>
+      </div>
+    </div>
+  </div>
+  <!-- Gelatina de fresa -->
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src="https://dgari.com/wp-content/uploads/2022/02/Gelatina-con-mousse-de-fresa.png"
+        class="card-img-top"
+        alt="Gelatina de fresa"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Gelatina de fresa</h5>
+        <p class="card-text">Gelatina fresca y dulce con sabor natural.</p>
+        <p class="card-text fw-bold">Precio: $90</p>
+      </div>
+    </div>
+  </div>
+  <!-- Pastel de fresa -->
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src="https://tse4.mm.bing.net/th/id/OIP.AE5l-XDAPCAPw49eDdIYogHaFj?r=0&pid=Api&h=220&P=0"
+        class="card-img-top"
+        alt="Pastel de fresa"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Pastel de fresa</h5>
+        <p class="card-text">Pastel esponjoso con deliciosa cobertura de fresa.</p>
+        <p class="card-text fw-bold">Precio: $370</p>
+      </div>
+    </div>
+  </div>
+  <!-- Galletas decoradas -->
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src="https://tse4.mm.bing.net/th/id/OIP.f-q1r5G4Ipy9uBIuv5iUgwHaFb?r=0&pid=Api&h=220&P=0"
+        class="card-img-top"
+        alt="Galletas decoradas"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Galletas decoradas</h5>
+        <p class="card-text">Paquete de galletas artesanales con diferentes decoraciones.</p>
+        <p class="card-text fw-bold">Precio: $150 el paquete</p>
+      </div>
+    </div>
+  </div>
+  <!-- Pastel personalizado -->
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src="https://tse3.mm.bing.net/th/id/OIP.zWcF28IXPP203k6yP2iG-wHaHa?r=0&pid=Api&h=220&P=0"
+        class="card-img-top"
+        alt="Pastel personalizado"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Pastel personalizado</h5>
+        <p class="card-text">Diseña tu pastel con los sabores, tamaños y decoraciones que prefieras.</p>
+        <p class="card-text fw-bold">Precio: Consulta</p>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </section>
+
+    <section id="pedido" style="display:none;">
+      <h2 class="mb-4 text-center">Realiza tu pedido personalizado</h2>
+      <form id="pedidoForm" novalidate>
+        <div class="mb-3">
+          <label for="nombreCliente" class="form-label">Nombre completo</label>
+          <input
+            type="text"
+            id="nombreCliente"
+            class="form-control"
+            placeholder="Tu nombre"
+            required
+          />
+          <div class="invalid-feedback">Por favor ingresa tu nombre.</div>
+        </div>
+        <div class="mb-3">
+          <label for="telefono" class="form-label">Teléfono</label>
+          <input
+            type="tel"
+            id="telefono"
+            class="form-control"
+            placeholder="Ej. 55 1234 5678"
+            pattern="[0-9\s\-]+"
+            required
+          />
+          <div class="invalid-feedback">Por favor ingresa un teléfono válido.</div>
+        </div>
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo electrónico</label>
+          <input
+            type="email"
+            id="correo"
+            class="form-control"
+            placeholder="ejemplo@correo.com"
+            required
+          />
+          <div class="invalid-feedback">Por favor ingresa un correo válido.</div>
+        </div>
+        <div class="mb-3">
+          <label for="fechaEntrega" class="form-label">Fecha de entrega o recolección</label>
+          <input type="date" id="fechaEntrega" class="form-control" required />
+          <div class="invalid-feedback">Por favor selecciona una fecha válida.</div>
+        </div>
+
+        <div id="productosContainer">
+          <div class="producto-row row g-3 align-items-end mb-3">
+            <div class="col-6">
+              <label class="form-label">Producto</label>
+              <select class="form-select producto-select" required>
+                <option value="">Selecciona un producto</option>
+                <option value="Pastel de Chocolate">Pastel de Chocolate</option>
+                <option value="Cupcakes surtidos">Cupcakes surtidos</option>
+                <option value="Gelatina de fresa">Gelatina de fresa</option>
+                <option value="Pastel de fresa">Pastel de fresa</option>
+                <option value="Galletas decoradas">Galletas decoradas</option>
+                <option value="Pastel personalizado">Pastel personalizado</option>
+              </select>
+              <div class="invalid-feedback">Selecciona un producto.</div>
+            </div>
+            <div class="col-3">
+              <label class="form-label">Cantidad</label>
+              <input
+                type="number"
+                class="form-control cantidad-input"
+                min="1"
+                value="1"
+                required
+              />
+              <div class="invalid-feedback">Ingresa una cantidad válida.</div>
+            </div>
+            <div class="col-3">
+              <button
+                type="button"
+                class="btn btn-danger btn-remove-producto"
+                title="Eliminar producto"
+              >
+                &times;
+              </button>
+            </div>
+            <div class="col-12 mt-2">
+              <label class="form-label">Detalles / Personalización</label>
+              <textarea
+                class="form-control detalle-textarea"
+                rows="2"
+                placeholder="Especifica sabores, tamaño, decoración, etc."
+              ></textarea>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" id="btnAddProducto" class="btn btn-secondary mb-3">
+          Agregar producto
+        </button>
+
+        <button type="submit" class="btn btn-primary w-100">Enviar pedido</button>
+      </form>
+
+      <div
+        id="mensajeExito"
+        class="alert alert-success mt-3 d-none"
+        role="alert"
+      >
+        ¡Pedido enviado con éxito! Nos pondremos en contacto contigo pronto.
+      </div>
+    </section>
+
+   <section id="cotizacion" style="display:none;">
+  <h2 class="mb-4 text-center">Solicita tu cotización</h2>
+  <form id="cotizacionForm" novalidate>
+    <div class="mb-3">
+      <label for="nombreCot" class="form-label">Nombre completo</label>
+      <input type="text" id="nombreCot" class="form-control" placeholder="Tu nombre" required />
+      <div class="invalid-feedback">Por favor ingresa tu nombre.</div>
+    </div>
+    <div class="mb-3">
+      <label for="emailCot" class="form-label">Correo electrónico</label>
+      <input type="email" id="emailCot" class="form-control" placeholder="ejemplo@correo.com" required />
+      <div class="invalid-feedback">Por favor ingresa un correo válido.</div>
+    </div>
+    <div class="mb-3">
+      <label for="telefonoCot" class="form-label">Teléfono</label>
+      <input type="tel" id="telefonoCot" class="form-control" placeholder="Ej. 55 1234 5678" pattern="[0-9\s\-]+" required />
+      <div class="invalid-feedback">Por favor ingresa un teléfono válido.</div>
+    </div>
+    <div class="mb-3">
+      <label for="detalleCot" class="form-label">Detalle de la cotización</label>
+      <textarea id="detalleCot" class="form-control" rows="4" placeholder="Describe lo que quieres cotizar" required></textarea>
+      <div class="invalid-feedback">Por favor ingresa detalles para la cotización.</div>
+    </div>
+    <button type="submit" class="btn btn-primary w-100">Enviar cotización</button>
+  </form>
+
+  <div id="mensajeExitoCot" class="alert alert-success mt-3 d-none" role="alert">
+    ¡Cotización enviada con éxito! Nos pondremos en contacto contigo pronto.
+  </div>
+
+  <script>
+    (function () {
+      const form = document.getElementById('cotizacionForm');
+      const mensajeExito = document.getElementById('mensajeExitoCot');
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        if (form.checkValidity()) {
+          const nombre = document.getElementById('nombreCot').value.trim();
+          const email = document.getElementById('emailCot').value.trim();
+          const telefono = document.getElementById('telefonoCot').value.trim();
+          const detalle = document.getElementById('detalleCot').value.trim();
+
+          let mensaje = `Solicitud de cotización para Pastelería Dark Temptation:%0A`;
+          mensaje += `Nombre: ${nombre}%0A`;
+          mensaje += `Correo: ${email}%0A`;
+          mensaje += `Teléfono: ${telefono}%0A`;
+          mensaje += `Detalle:%0A${detalle}`;
+
+          const numeroWhatsApp = '5217294515078'; // Cambia por tu número con prefijo internacional
+
+          const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${mensaje}`;
+
+          window.open(urlWhatsApp, '_blank');
+
+          mensajeExito.classList.remove('d-none');
+          form.reset();
+          form.classList.remove('was-validated');
+        } else {
+          form.classList.add('was-validated');
+        }
+      }, false);
+    })();
+  </script>
+</section>
+<section id="contacto" style="display:none;">
+  <h2 class="mb-4 text-center">Contacto</h2>
+
+  <div class="text-center mb-4">
+    <p><strong>Teléfono / WhatsApp: </strong>
+      <a href="https://wa.me/5217294515078" target="_blank" rel="noopener" class="text-decoration-none">
+        +52 1 729 451 5078
+      </a>
+    </p>
+    <p><strong>Email: </strong> 
+      <a href="mailto:contacto@darktemptation.com" class="text-decoration-none">
+        contacto@darktemptation.com
+      </a>
+    </p>
+  </div>
+
+  <div class="text-center mb-4">
+    <p><strong>Síguenos en redes sociales</strong></p>
+    <a href="https://facebook.com/tu-pagina" target="_blank" rel="noopener" class="me-3">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" alt="Facebook" style="height:40px;" />
+    </a>
+    <a href="https://instagram.com/tu-pagina" target="_blank" rel="noopener" class="me-3">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" style="height:40px;" />
+    </a>
+    <a href="https://twitter.com/tu-pagina" target="_blank" rel="noopener" class="me-3">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.8rOQPs_lkr-QAvANPWkYaQHaEa?r=0&pid=Api&h=220&P=0" alt="Twitter" style="height:40px;" />
+    </a>
+  </div>
+
+  <div class="container my-4">
+    <div class="row justify-content-center g-3">
+      <div class="col-12 col-md-6 col-lg-4 mx-auto">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.se0QnyVH24hH3fYdr5GI2wHaEJ?r=0&pid=Api&h=220&P=0" alt="Imagen de contacto" class="img-fluid rounded" style="max-height: 300px; object-fit: cover; width: 100%;" />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <script>
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        document.querySelectorAll('.nav-link').forEach(l =>
+          l.classList.remove('active')
+        );
+        this.classList.add('active');
+
+        const destino = this.getAttribute('href').substring(1);
+        document.querySelectorAll('main > section').forEach(sec => {
+          sec.style.display = sec.id === destino ? 'block' : 'none';
+        });
+      });
+    });
+
+    (function () {
+      'use strict';
+
+      const form = document.getElementById('pedidoForm');
+      const mensajeExito = document.getElementById('mensajeExito');
+      const productosContainer = document.getElementById('productosContainer');
+      const btnAddProducto = document.getElementById('btnAddProducto');
+
+      function crearProductoRow() {
+        const div = document.createElement('div');
+        div.className = 'producto-row row g-3 align-items-end mb-3';
+        div.innerHTML = `
+          <div class="col-6">
+            <label class="form-label">Producto</label>
+            <select class="form-select producto-select" required>
+              <option value="">Selecciona un producto</option>
+              <option value="Pastel de Chocolate">Pastel de Chocolate</option>
+              <option value="Cupcakes surtidos">Cupcakes surtidos</option>
+              <option value="Gelatina de fresa">Gelatina de fresa</option>
+              <option value="Pastel de fresa">Pastel de fresa</option>
+              <option value="Galletas decoradas">Galletas decoradas</option>
+              <option value="Pastel personalizado">Pastel personalizado</option>
+            </select>
+            <div class="invalid-feedback">Selecciona un producto.</div>
+          </div>
+          <div class="col-3">
+            <label class="form-label">Cantidad</label>
+            <input type="number" class="form-control cantidad-input" min="1" value="1" required />
+            <div class="invalid-feedback">Ingresa una cantidad válida.</div>
+          </div>
+          <div class="col-3">
+            <button type="button" class="btn btn-danger btn-remove-producto" title="Eliminar producto">&times;</button>
+          </div>
+          <div class="col-12 mt-2">
+            <label class="form-label">Detalles / Personalización</label>
+            <textarea class="form-control detalle-textarea" rows="2" placeholder="Especifica sabores, tamaño, decoración, etc."></textarea>
+          </div>`;
+        return div;
+      }
+
+      btnAddProducto.addEventListener('click', () => {
+        productosContainer.appendChild(crearProductoRow());
+      });
+
+      productosContainer.addEventListener('click', e => {
+        if (e.target.classList.contains('btn-remove-producto')) {
+          if (productosContainer.children.length > 1) {
+            const fila = e.target.closest('.producto-row');
+            fila.remove();
+          }
+        }
+      });
+
+      form.addEventListener(
+        'submit',
+        function (event) {
+          event.preventDefault();
+          event.stopPropagation();
+
+          if (!form.checkValidity()) {
+            form.classList.add('was-validated');
+            return;
+          }
+
+          const productos = [];
+          let productosValidos = true;
+
+          const filas = productosContainer.querySelectorAll('.producto-row');
+          filas.forEach(fila => {
+            const productoSelect = fila.querySelector('.producto-select');
+            const cantidadInput = fila.querySelector('.cantidad-input');
+            if (!productoSelect.value || cantidadInput.value < 1) {
+              productosValidos = false;
+              productoSelect.classList.add('is-invalid');
+              cantidadInput.classList.add('is-invalid');
+            } else {
+              productoSelect.classList.remove('is-invalid');
+              cantidadInput.classList.remove('is-invalid');
+              productos.push({
+                nombre: productoSelect.value,
+                cantidad: cantidadInput.value,
+                detalle: fila.querySelector('.detalle-textarea').value.trim()
+              });
+            }
+          });
+
+          if (!productosValidos) return;
+
+          const nombre = document.getElementById('nombreCliente').value.trim();
+          const telefono = document.getElementById('telefono').value.trim();
+          const correo = document.getElementById('correo').value.trim();
+          const fechaEntrega = document.getElementById('fechaEntrega').value;
+
+          let mensajeProductos = '';
+          productos.forEach((p, i) => {
+            mensajeProductos += `${i + 1}. ${p.nombre} - Cantidad: ${p.cantidad} - Detalles: ${
+              p.detalle || 'Ninguno'
+            }%0A`;
+          });
+
+          const mensaje =
+            `Nuevo pedido de Pastelería Dark Temptation:%0A` +
+            `Nombre: ${nombre}%0A` +
+            `Teléfono: ${telefono}%0A` +
+            `Correo: ${correo}%0A` +
+            `Fecha de entrega: ${fechaEntrega}%0A` +
+            `Productos:%0A${mensajeProductos}`;
+
+          const numeroWhatsApp = '5217294515078'; // Cambia por tu número real con prefijo internacional
+
+          const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${mensaje}`;
+
+          window.open(urlWhatsApp, '_blank');
+
+          mensajeExito.classList.remove('d-none');
+          form.reset();
+          form.classList.remove('was-validated');
+
+          while (productosContainer.children.length > 1) {
+            productosContainer.lastChild.remove();
+          }
+        },
+        false
+      );
+    })();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
